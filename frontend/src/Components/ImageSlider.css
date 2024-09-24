@@ -1,16 +1,22 @@
-.slider{
-    width: 100%;
-    height: auto;
+.slider {
+  width: 65%;
+  height: auto;
 }
-
-img{
-    width: auto;
-    height: 500px;
+.foo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 235, 215);
+  padding-top: 100px;
+}
+img {
+  width: auto;
+  height: 500px;
 }
 
 /* Mobile View */
-@media screen and (max-width:768px){
-    img{
-        height: 250px;
-    }
+@media screen and (max-width: 768px) {
+  img {
+    height: 250px;
+  }
 }
