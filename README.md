@@ -26,6 +26,24 @@
 
 4. Run `yarn start` to start the application
 
+5. Register yourself as admin by running on api http://localhost:8888/api/auth/register
+
+6. Pass the data in the following format:
+
+{
+"userType":"employee",
+"userFullName":"",
+"admissionId":1,
+"age": 21,
+"dob": "16-1-2002",
+"gender": "Male",
+"address": "",
+"mobileNumber": 8497559410,
+"email": "xxx@gmail.com",
+"password": "xyz",
+"isAdmin": false
+}
+
 ### Backend Setup 🍿
 
 1. Get into backend directory `cd backend`
